@@ -1,0 +1,158 @@
+PUT https://localhost:5001/api/todo/3/complete
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-07T121420.200.json
+
+###
+
+PUT https://localhost:5001/api/todo/2/complete
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-07T121405.200.json
+
+###
+
+DELETE https://localhost:5001/api/todo/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT https://localhost:5001/api/todo/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "name" : "updated another first one completed",
+  "isComplete": true
+}
+
+<> 2019-11-07T120120.200.json
+
+###
+
+PUT https://localhost:5001/api/todo/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "name" : "updated another first one"
+}
+
+<> 2019-11-07T120056.200.json
+
+###
+
+PUT https://localhost:5001/api/todo/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "name" : "updated first one"
+}
+
+<> 2019-11-07T115733.200.json
+
+###
+
+PUT https://localhost:5001/api/todo/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "name" : "updated first one"
+}
+
+<> 2019-11-07T115356.200.json
+
+###
+
+POST https://localhost:5001/api/todo
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+   "name" : "Third Item"
+}
+
+<> 2019-11-07T114913.200.json
+
+###
+
+GET https://localhost:5001/api/todo
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-07T114459.200.json
+
+###
+
+POST https://localhost:5001/api/todo
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "name" : "Second Item"
+}
+
+<> 2019-11-07T114435.200.json
+
+###
+
+POST https://localhost:5001/api/todo
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json"
+
+{
+  "name" : "Second Item"
+}
+
+###
+
+POST https://localhost:5001/api/todo
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json"
+
+{
+  "name" : "Second Item"
+}
+
+###
+
+POST https://localhost:5001/api/todo
+Accept: */*
+Cache-Control: no-cache
+Content-Type: "application/json"
+
+{
+  name : "Second Item"
+}
+
+###
+
+GET https://localhost:5001/api/todo/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-07T114216.200.json
+
+###
+
+GET https://localhost:5001/api/todo
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-07T114159.200.json
+
+###
+
